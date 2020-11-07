@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>CIFRADO CESAR</title>
+	<link rel="stylesheet" href="css/estilos.css">
+	<script src="js/logica.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+		
+	<header class="contenido-encabezado" id="contenido-encabezado">
+		<div class="texto-encabezado">
+			<h2><font size="5" color="#CAE9FF" face="verdana">Este cifrado es un ejemplo del cifrado original Cesar en el cual se usa
+un cambio de posición dentro del alfabeto en 3 lugares.
+</h2></font>
+			<p class="icono">
+				<i class="far fa-eye-slash"></i>
+
+			</p>
+			<h1 class="titulo">
+				CIFRADO<br>CESAR<br>
+				
+			
+
+
+
+
+
+	<h1><font size="3" color="#CAE9FF" face="verdana">Ingresa el texto a cifrar
+</h1></font>
+	<textarea id="cadena" class="cuadro" onkeypress="return validar_cadena(event)"></textarea>
+	<h1><font size="3" color="#CAE9FF" face="verdana">Ingresa la semilla
+</h1></font>
+	<textarea id="semilla" class="cuadro" onkeypress="return validar_semilla(event)"></textarea>
+
+	<p><input type="button" value="Cifrar" onclick="validar_cifrado()">
+	<input type="button" value="Descifrar" onclick="validar_descifrado()">
+
+
+	</p>
+
+
+	<div id="resultado"></div>
+
+
+<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+
+</body>
+</html>
